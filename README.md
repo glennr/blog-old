@@ -1,3 +1,21 @@
+
+
+
+Getting Started
+---
+- [Fork this repository](https://github.com/dirkfabisch/mediator)
+- Clone it: `git clone https://github.com/YOUR-USER/mediator`
+- Install the [GitHub Pages gem](https://github.com/github/pages-gem) (includes Jekyll): `bundle install`
+- Install the [Bourbon gem](https://github.com/thoughtbot/bourbon) `gem install bourbon`
+- Run the jekyll server: `jekyll serve`
+
+
+## Creating Posts
+
+    rake post title="Neuroevolution with MarI/O"
+
+
+
 mediator
 ========
 
