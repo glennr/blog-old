@@ -74,7 +74,7 @@ task :post do
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts 'description: ""'
     post.puts "date: #{datetime}"
-    post.puts "category: #{category}"
+    post.puts "categories: #{category}"
     post.puts "tags: #{tags}"
     post.puts "image: #{banner_image_target_absolute}"
     post.puts "---"
