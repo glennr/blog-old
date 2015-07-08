@@ -4,14 +4,17 @@ title: About
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+The best way to get ahold of me is an email to glenn at siyelo.com. On Twitter I’m @glennrob.
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+## Bio
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Below is a bio that I typed up for Siyelo.com in 3rd person!
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+_Glenn Roberts is a technologist & entrepreneur, focused on startups and building businesses._
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+_He is a partner at Siyelo, a digital consultancy that builds web & mobile applications with technologies like Ruby on Rails, Javascript, Angular and Go._
+
+_He is a digital nomad and proponent of the benefits of remote work, having founded and grown Siyelo on the same principles since 2008._
+
+_Previously he developed software and travelled extensively for 7 years with leading technology companies, such as Accenture, Ericsson, Hutchison '3', and Tele2. He holds a B.I.T in Applied Computer Science._
+
