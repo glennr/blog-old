@@ -8,6 +8,7 @@ CONFIG = {
   'version' => "0.3.0",
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
+  'article_images' => File.join(SOURCE, "assets", "article_images"),
   'post_ext' => "md",
   'theme_package_version' => "0.1.0"
 }
@@ -53,13 +54,19 @@ task :post do
   end
   datetime = Time.now.strftime('%Y-%m-%d %H:%M:%S')
   postname = "#{date}-#{slug}"
-  dirname = postname
-  banner_image_name = "banner.jpg"
+
   filename = File.join(CONFIG['posts'], "#{postname}.#{CONFIG['post_ext']}")
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  
+  dirname = File.join(CONFIG['article_images'], "#{postname}")
+  if File.exist?(dirname)
+    abort("rake aborted!") if ask("#{dirname} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+  banner_image_src = File.join(CONFIG['article_images'], "default_banner.jpg")
+  banner_image_target = "#{dirname}/banner.jpg"
+  banner_image_target_absolute = "#{dirname.sub(/^\./, '')}/banner.jpg"
+
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
@@ -69,10 +76,17 @@ task :post do
     post.puts "date: #{datetime}"
     post.puts "category: #{category}"
     post.puts "tags: #{tags}"
-    post.puts "image: /assets/article_images/#{dirname}/#{banner_image_name}"
+    post.puts "image: #{banner_image_target_absolute}"
     post.puts "---"
     post.puts ""
+    post.puts "# #{title.gsub(/-/,' ')}"
+    post.puts ""
   end
+
+  rm_rf dirname
+  mkdir dirname
+  copy banner_image_src, banner_image_target
+
 end # task :post
 
 # Usage: rake page name="about.html"
