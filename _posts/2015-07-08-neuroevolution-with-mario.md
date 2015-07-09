@@ -3,14 +3,16 @@ layout: post
 title: "NeuroEvolution with MarI/O"
 description: ""
 date: 2015-07-08 13:34:36
-categories: tech 
-tags: [neuroevolution machine-learning]
+categories: posts tech 
+tags: [neuroevolution machine-learning featured]
 image: /assets/article_images/2015-07-08-neuroevolution-with-mario/banner.jpg
 ---
 
 I was recently intrigued by [Seth Bling's MarI/O](https://www.youtube.com/watch?v=qv6UVOQ0F44) - a neural network slash genetic algorithm that teaches itself to play Super Mario World.
 
 Seth's implementation (in Lua) is based on the concept of NeuroEvolution of Augmenting Topologies (or NEAT). [NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies) is a type of genetic algorithm which generates efficient artificial neural networks (ANNs) from a very simple starting network. It does so rather quickly too (compared to other evolutionary algorithms).
+
+![marI/O](/assets/article_images/2015-07-08-neuroevolution-with-mario/mario-screen.png)
 
 For another example of why this field is incredibly exciting, [watch this amazing video of Google's DeepMind learning and mastering space invaders](https://www.youtube.com/watch?v=rbsqaJwpu6A&t=10m33s). How good is that clutch shot at the end?!
 
@@ -113,7 +115,7 @@ A similar error - try the solution above, and failing that;
 
       "System.ArgumentNullException: Value cannot be null. Parameter name: source"
 
-Are you running MarI/O in a VM? Check out my notes on [running MarI/O on OSX](/tech/2015/07/08/mario-on-osx.html)
+Are you running MarI/O in a VM? Check out my notes on [running MarI/O on OSX](/posts/tech/2015/07/08/mario-on-osx.html)
 
 ## Resources
 

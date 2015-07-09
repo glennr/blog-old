@@ -3,7 +3,7 @@ layout: post
 title: "MarI/O on OSX"
 description: ""
 date: 2015-07-08 13:48:37
-categories: tech
+categories: posts tech
 tags: [neuroevolution machine-learning]
 image: /assets/article_images/2015-07-08-mario-on-osx/banner.jpg
 ---
@@ -75,6 +75,6 @@ However, as you can see from this screenshot, the SNES ROM loads, I can hear the
 
 ## Conclusion
 
-This is as close as I got before giving up and [running MarI/O on Windows 8](/tech/2015/07/08/neuroevolution-with-mario.html) via Boot Camp with much more success!
+This is as close as I got before giving up and [running MarI/O on Windows 8](/posts/tech/2015/07/08/neuroevolution-with-mario.html) via Boot Camp with much more success!
 
 If anyone had more success than me in getting MarI/O running on OSX, I'd love to hear from you!
