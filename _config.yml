@@ -17,6 +17,7 @@ cover: "/assets/images/background_image.jpg"
 
 name: 'Glenn Roberts'
 author: 'Glenn Roberts'
+author_bio: 'Technologist, Entrepreneur, Partner at Siyelo'
 author_image: "/assets/images/author.png"
 
 paginate:	5
@@ -32,24 +33,12 @@ social:
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
-
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
-
+  - icon: reddit
+    url:  https://reddit.com/r/glennrob
+    desc: /r/glennrob
+    share_url: https://www.reddit.com/submit
+    share_title: ?title=
+    share_link: "&amp;url="
   - icon:	github
     url:	https://github.com/glennr
     desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
-
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:

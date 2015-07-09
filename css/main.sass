@@ -428,6 +428,9 @@ body
         padding: 0 0 golden-ratio(1rem,  1)
     ol li
       list-style-type: decimal
+  .bottom-comments
+    color: #696969
+
   .bottom-teaser
     padding: 50px 0
     font-family: $font-sans
@@ -440,8 +443,11 @@ body
       border: 0px solid #ddd
       border-top: 1px solid #ddd
     .isLeft
-      float: left
       width: 47%
+    .isFullWidth
+      width: 100%
+    .isLeft, .isFullWidth
+      float: left
       @include box-sizing(border-box)
       @include respond-to(800)
         width: 100%
@@ -478,6 +484,7 @@ body
         padding-left: 100px
         &.published
           color: #999
+          font-size: 12px
     .isRight
       float: right
       width: 47%
@@ -507,6 +514,11 @@ body
 .share
   text-align: right
   padding: 20px 0 0
+  
+  .share-text
+    font-size: 14px
+    color: rgba(0,0,0,0.6)
+
   a
     text-decoration: none
     color: #bbb
@@ -601,3 +613,9 @@ pre
     border: 0
     padding-right: 0
     padding-left: 0
+
+.bio
+  font-size: 14px
+  line-height: 1.3
+  margin-bottom: 4px
+  color: rgba(0,0,0,0.6)
