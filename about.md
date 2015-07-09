@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-The best way to get ahold of me is an email to glenn at siyelo.com. On Twitter I’m @glennrob.
+The best way to get ahold of me is an email to [glenn@siyelo.com](mailto:glenn@siyelo.com). On Twitter I’m [@glennrob](https://twitter.com/glennrob).
 
 ## Bio
 
