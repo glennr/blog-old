@@ -8,8 +8,6 @@ tags: [neuroevolution machine-learning]
 image: /assets/article_images/2015-07-08-neuroevolution-with-mario/banner.jpg
 ---
 
-# NeuroEvolution with MarI/O 
-
 I was recently intrigued by [Seth Bling's MarI/O](https://www.youtube.com/watch?v=qv6UVOQ0F44) - a neural network slash genetic algorithm that teaches itself to play Super Mario World.
 
 Seth's implementation (in Lua) is based on the concept of NeuroEvolution of Augmenting Topologies (or NEAT). [NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies) is a type of genetic algorithm which generates efficient artificial neural networks (ANNs) from a very simple starting network. It does so rather quickly too (compared to other evolutionary algorithms).
@@ -71,13 +69,9 @@ Congratulations! If all goes well you'll see Mario sitting there or jumping up a
 
 ### Restarting MarI/O
 
-The current generation being evaluated is saved in temp.pool. If your computer melts, and you need to restart MarI/O;
+MarI/O saves the genomes of a given generation in a .pool file. The current generation being evaluated is saved in temp.pool. After each generation, a new .pool file will be saved, prefixed with the generation number. 
 
-  1. Rename temp.pool to DP1.state.pool
-  1. In the MarI/O 'Fitness' window, load the DP1.state.pool
-  1. MarI/O should resume evaluating the latest generation.
-
-MarI/O saves the genomes of a given generation in a .pool file. After each generation, a new .pool file will be saved, prefixed with the generation number. To resume from a specific generation;
+If your computer melts, and you need to restart MarI/O;
 
   1. Delete temp.pool
   1. Copy the desired generation .pool file to DP1.state.pool

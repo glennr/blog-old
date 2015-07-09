@@ -79,8 +79,6 @@ task :post do
     post.puts "image: #{banner_image_target_absolute}"
     post.puts "---"
     post.puts ""
-    post.puts "# #{title.gsub(/-/,' ')}"
-    post.puts ""
   end
 
   rm_rf dirname

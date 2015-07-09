@@ -8,11 +8,9 @@ tags: [neuroevolution machine-learning]
 image: /assets/article_images/2015-07-08-mario-on-osx/banner.jpg
 ---
 
-# MarI/O on OSX
+[Seth Bling's MarI/O](https://www.youtube.com/watch?v=qv6UVOQ0F44) is an implementation of the NEAT machine-learning algorithm that teaches itself to play Super Mario. 
 
-My initial attempts to run [Seth Bling's MarI/O](https://www.youtube.com/watch?v=qv6UVOQ0F44) (an implementation of the NEAT machine-learning algorithm that teaches itself to play Super Mario) were on OSX.
-
-While my attempts were ultimately unsuccessful, I did learn a few things...
+My initial attempts to run MarI/O were on OSX. While these attempts were ultimately unsuccessful, I did learn a few things.
 
 
 ## Attempt #1: BizHawk on OSX
