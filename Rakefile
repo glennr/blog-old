@@ -117,6 +117,11 @@ task :preview do
   system "jekyll serve -w"
 end # task :preview
 
+desc "Deploy"
+task :deploy do
+  system "git checkout gh-pages && git merge master && git push origin gh-pages"
+end # task :preview
+
 def ask(message, valid_options)
   if valid_options
     answer = get_stdin("#{message} #{valid_options.to_s.gsub(/"/, '').gsub(/, /,'/')} ") while !valid_options.include?(answer)
