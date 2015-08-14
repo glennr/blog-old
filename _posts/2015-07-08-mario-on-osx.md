@@ -8,7 +8,7 @@ tags: [neuroevolution machine-learning]
 image: /assets/article_images/2015-07-08-mario-on-osx/banner.jpg
 ---
 
-[Seth Bling's MarI/O](https://www.youtube.com/watch?v=qv6UVOQ0F44) is an implementation of the NEAT machine-learning algorithm that teaches itself to play Super Mario. 
+[Seth Bling's MarI/O](https://www.youtube.com/watch?v=qv6UVOQ0F44) is an implementation of the NEAT machine-learning algorithm that teaches itself to play Super Mario.
 
 My initial attempts to run MarI/O were on OSX. While these attempts were ultimately unsuccessful, I did learn a few things.
 
@@ -37,7 +37,7 @@ Righto.
 
 Since I couldn't run BizHawk on OSX, what about a different emulator? I hoped all I needed was Lua scripting capabilities, and with any luck, very few changes to the API calls in neatevolve.lua script, right? (Such optimism!)
 
-[OpenEmu](http://openemu.org/) was the most promising OSX emulator since it threatened to also have Lua scripting capabilities. However on closer inspection it seems the project's [lua scripting branch](https://github.com/OpenEmu/OpenEmu/tree/luascripting) has been abandoned. 
+[OpenEmu](http://openemu.org/) was the most promising OSX emulator since it threatened to also have Lua scripting capabilities. However on closer inspection it seems the project's [lua scripting branch](https://github.com/OpenEmu/OpenEmu/tree/luascripting) has been abandoned.
 
 ## Attempt #3: VirtualBox VM
 

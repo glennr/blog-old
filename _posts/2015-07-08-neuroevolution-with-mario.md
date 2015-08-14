@@ -3,7 +3,7 @@ layout: post
 title: "NeuroEvolution with MarI/O"
 description: ""
 date: 2015-07-08 13:34:36
-categories: posts tech 
+categories: posts tech
 tags: [neuroevolution machine-learning featured]
 image: /assets/article_images/2015-07-08-neuroevolution-with-mario/banner.jpg
 ---
@@ -37,10 +37,10 @@ To evolve your own ANN with MarI/O that can play Super Mario World, here's how t
 
   1. Set BizHawk video Mode to OpenGL (not GDI+)
 
-     Config > Display > Display Method > Open GL 
+     Config > Display > Display Method > Open GL
 
   1. Restart BizHawk for settings to take effect. Double check it actually works.
-  
+
   1. Optional: Set emulation speed to 200% - this makes the evolution go a lot faster!
 
 ### Initial State Setup
@@ -60,18 +60,18 @@ We need an initial/fresh game state that gets loaded for each genome. In other w
 Now we have an initial state that MarI/O will load before each genome is evaluated.
 
 ### Running MarI/O
-  
-  1. Load neatevolve.lua. You can do this via Tools->Lua Console. I prefer to drag and drop neatevolve.lua into the running emulator. 
+
+  1. Load neatevolve.lua. You can do this via Tools->Lua Console. I prefer to drag and drop neatevolve.lua into the running emulator.
 
   1. MarI/O will load, creating a base set of about 300 very simple genomes. This is as per the NEAT methodology, which starts with a very simple ANNs (i.e. very few hidden nodes), and evolves from there.
 
-  1. You can see the ANN that MarI/O is currently evaluating by checking 'Show Map' setting in the MarI/O 'Fitness' window. 
+  1. You can see the ANN that MarI/O is currently evaluating by checking 'Show Map' setting in the MarI/O 'Fitness' window.
 
 Congratulations! If all goes well you'll see Mario sitting there or jumping up and down, like an idiot, while it learns how to play the game. Don't worry, it gets 'smarter'.
 
 ### Restarting MarI/O
 
-MarI/O saves the genomes of a given generation in a .pool file. The current generation being evaluated is saved in temp.pool. After each generation, a new .pool file will be saved, prefixed with the generation number. 
+MarI/O saves the genomes of a given generation in a .pool file. The current generation being evaluated is saved in temp.pool. After each generation, a new .pool file will be saved, prefixed with the generation number.
 
 If your computer melts, and you need to restart MarI/O;
 
@@ -87,11 +87,11 @@ Here are solutions to common errors myself an other people have ran into with Ma
 
 ### 'Buttonnames' error
 
-      LuaInterface.LuaScriptException: [string "main"]:33: attempt to get length of global 'ButtonNames' (a nil value) 
+      LuaInterface.LuaScriptException: [string "main"]:33: attempt to get length of global 'ButtonNames' (a nil value)
 
 The NEATevolve.lua script has a hardcoded (and relative) file reference to DP1.state. You need to make sure these files are in the same directory.
 
-  1. Create a Save State in BizHawk at the start of the level you want the algorithm to learn. 
+  1. Create a Save State in BizHawk at the start of the level you want the algorithm to learn.
 
   1. you'll need to rename that file to DP1.state, and drop it in the same directory as the neatevolve.lua script. Putting both these files in the same directory as EmuHawk.exe is recommended
 
