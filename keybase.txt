@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/glennrob
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://glenn-roberts.com
+  * I am glennrob (https://keybase.io/glennrob) on keybase.
+  * I have a public key with fingerprint A116 1BB1 8A55 FED3 0991  44D9 97CD
+  * 22CC C005 CD65
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "a1161bb18a55fed3099144d997cd22ccc005cd65",
+            "host": "keybase.io",
+            "key_id": "97cd22ccc005cd65",
+            "kid":
+"0101aaf8b21dabd2603156547858b01e64eef88c2dfbd4b3ec827eac1bb8f40bdf200a",
+            "uid": "b372102d11f43cccd96562eb8e4b7b19",
+            "username": "glennrob"
+        },
+        "service": {
+            "hostname": "glenn-roberts.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1441085070,
+    "expire_in": 157680000,
+    "prev": "37eabe6494ce804936040f41f24de8a4bac99592af3488f5c369530b49562ac8",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtkmtMFFcUx5etoouggFKDkOpOSSPNQua9M9uiErCAxFJbSIu2snNn7sBE2NnO
+riALhGCDBkSsGINFEqQpLYp9KBKIDWoXiaVgsPJqMLGFSABJ5BHLowHtHdIm/dD7
+5eae8zv/c/4n9/OAVwxGn+r7WM+dtfehT/ckMKSNsb8UYECV8jFbAXYErl6y4siE
+mlNTHG7MhgkEwRIAEJzAMDKUKJznCZqWeN4qSiQpiiKOM6LEMpgFy1JdegWSAYIL
+RisqiqFHhiKh6P/wR1YTOIETgiBzgCQkAUgki1MEwzK0lWM4gBOQpSGUOU4kJRlI
+NKCgyJFWKIhoKE6mcSDJJI4LSO7oqhygrCSBkxJByDSF2kk8y7AkBBykgRUQvA66
+oOYQciCiM7Ohw6GpACuyYCiaq4hQX4Hu5L9EFEKg5nZFi2oOEnBqqlsV1WyUznK7
+nTa92p3v1PE8CDL+EcoAikNCu0QFuVBzKaoDsxGIFN2Kroy2SOAcg1txCwaPORUN
+Zig6wVhZDkdHbwNzkSSF3AK0Bp4WIYfTPMXiNC7ThEzSEuQEGggizzM8KcgUzXEy
+I1Isz1A4oHlkXBA5TLf2qUPFbBwaU8hEki4l0yG4fY9qECvyKzOGrzH4GA2+a436
+fzD4mQL//SRzVZtWtsN90bPBUaXXWm+cN6bMBS0PVQRuHKiprw0JM338MmcgsChh
++mHixmT/qxcKk6StT3qvVN6Omc59NbU8t/PQ8Mp4csp8aq1Nfbxc3r3ww3O1J/LS
+6Cx7t1I7tzPuafXpZuOjz/w3Pag350+dqt7xeklxrb3K9m1+1vOlywfNWabTP/bT
+kdsmk5uk+LyKjpp9PQ+zs7WTHct/fTQ+sv+FPeNOlXdnc/xw0Ccjo+Gzx8Peu+34
++Q1PQZQnxrfbJza09ENX1uZv+hr9yh7FacPgtdFtAf7bG/eWHqj7Wr0+sYRNV1kY
+Tzo+JRNJj+WtN6/m7O6tNzasuWWeeRB7vuectuOdg2dDn73bPm8JtC30T/1UHr55
+Pbc7JaklL6UzrO/YSe+6l85YMn0wMvOPCddw0veBoV6wEkwEmE+tmzh7ZuxQ0HXn
+mRL6wvGuuDYmcXnEtGvs8tABfNDlFBKaet3FStHdha75PfUlzUWtxhOHu75MTzS3
+fVHXdqWh0VSIjYe0flcSm3Yp/vfFxnatoemte5SXuug1WfYYxpPHeiKX3+57WjG4
+aN/Q35fu+aA4omOxN0aMuJm0pYAWG9ffq7O3zHiifJOngjcULv725ouwXQlz1+wn
+lJawxF8PM0MD+V/dumH3AG9I2ZL/TKwppCadqAyImLSnCs86tzxp7/8zLY3a+/7U
+wOTf
+=XkMt
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/glennrob
+
+==================================================================
+
+
+
