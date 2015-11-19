@@ -24,10 +24,10 @@ A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme
 - [Fork this repository](https://github.com/dirkfabisch/mediator)
 - Clone it: `git clone https://github.com/YOUR-USER/mediator`
 - Install dependencies:
-   
+
     % bundle install
 
-- Run the jekyll server: 
+- Run the jekyll server:
 
     % rake preview
 
@@ -77,6 +77,11 @@ See [_config.yml](https://github.com/dirkfabisch/mediator/blob/master/_config.ym
 ## Creating Posts
 
     % rake post title="Neuroevolution with MarI/O"
+
+
+## Deployment
+
+      rake deploy
 
 ## Licensing
 
