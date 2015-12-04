@@ -21,7 +21,7 @@ module JB
       :layouts => "_layouts",
       :posts => "_posts"
     }
-    
+
     def self.base
       SOURCE
     end
@@ -33,7 +33,7 @@ module JB
       path.compact!
       File.__send__ :join, path
     end
-  
+
   end #Path
 end #JB
 
@@ -99,7 +99,7 @@ task :page do
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  
+
   mkdir_p File.dirname(filename)
   puts "Creating new page: #{filename}"
   open(filename, 'w') do |post|
@@ -114,7 +114,7 @@ end # task :page
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll serve -w"
+  system "jekyll serve -w -p4001"
 end # task :preview
 
 desc "Deploy"
