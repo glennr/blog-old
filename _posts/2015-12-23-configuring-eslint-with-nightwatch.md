@@ -10,22 +10,22 @@ image: /assets/article_images/field-tea.jpeg
 
 If you are using [NightwatchJS](http://nightwatchjs.org/) getting ESLint errors like these;
 
-```
-   6:1  error  "describe" is not defined    no-undef
-  16:3  error  "beforeEach" is not defined  no-undef
-  39:3  error  "it" is not defined          no-undef
-```
+{% highlight javascript %}
+6:1  error  "describe" is not defined    no-undef
+16:3  error  "beforeEach" is not defined  no-undef
+39:3  error  "it" is not defined          no-undef
+{% endhighlight %}
 
 Simply ignore the relevant Nightwatch globals in your .eslintrc
 
-```
+{% highlight javascript %}
+...
+"globals": {
+  // ignore these nightwatch globals
+  "describe": false,
+  "before": false,
+  "beforeEach": false,
+  "it": false
   ...
-  "globals": {
-    // ignore these nightwatch globals
-    "describe": false,
-    "before": false,
-    "beforeEach": false,
-    "it": false
-    ...
-  }
-```
+}
+{% endhighlight %}
