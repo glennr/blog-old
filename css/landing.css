@@ -1,0 +1,202 @@
+@font-face {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+::selection,
+::-moz-selection {
+  background: #ff0000;
+}
+
+body.hidden {
+  opacity: 0;
+  -webkit-transform: translateY(8%);
+     -moz-transform: translateY(8%);
+          transform: translateY(8%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: rgba(0,0,0,0.96);
+  line-height: 1.6;
+  letter-spacing: -0.0em;
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+  -webkit-transition: all 1s cubic-bezier(0,.6,.18,1);
+     -moz-transition: all 1s cubic-bezier(0,.6,.18,1);
+          transition: all 1s cubic-bezier(0,.6,.18,1);
+}
+
+address {
+  font-style: normal;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+  -webkit-transition: color .05s ease;
+     -moz-transition: color .05s ease;
+          transition: color .05s ease;
+}
+
+a.name, .name {
+  color: rgba(0,0,0,0.96);
+}
+
+.about a:hover {
+  color: rgba(0,0,0,0.96);
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  background: #fff;
+  -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+          transition: all .5s ease;
+}
+
+.wrapper,
+{
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.05) rotate(30deg);
+            transform: scale(1.05) rotate(30deg);
+  }
+  75% {
+    -webkit-transform: scale(0.95) rotate(30deg);
+            transform: scale(0.95) rotate(30deg);
+  }
+}
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.05) rotate(30deg);
+        -ms-transform: scale(1.05) rotate(30deg);
+            transform: scale(1.05) rotate(30deg);
+  }
+  75% {
+    -webkit-transform: scale(0.95) rotate(30deg);
+        -ms-transform: scale(0.95) rotate(30deg);
+            transform: scale(0.95) rotate(30deg);
+  }
+}
+
+li span.new {
+  font-size: 14px;
+  position: absolute;
+  top: -5px;
+  margin-left: -4px;
+  color: rgba(0,0,0,.25);
+  -webkit-transform: scale(1) rotate(30deg);
+      -ms-transform: scale(1) rotate(30deg);
+          transform: scale(1) rotate(30deg);
+}
+
+li a:hover + span.new {
+  color: rgba(255,0,0,1);
+  -webkit-transition: color .2s ease;
+     -moz-transition: color .2s ease;
+          transition: color .2s ease;
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-duration: .9s;
+          animation-duration: .9s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@media only screen and (min-width: 848px) {
+  .wrapper {
+    padding: 40px;
+  }
+  header,
+  section {
+    width: 768px;
+  }
+}
+
+
+header,
+section {
+  display: block;
+  margin: 0 0 3.5em 0;
+}
+
+.title {
+  color: rgba(0,0,0,0.6);
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: .5em 0 0 0;
+}
+
+li {
+  position: relative;
+}
+
+li a {
+    display: inline-block;
+}
+
+li a:hover {
+  color: rgba(0,0,0,0.96);
+  -webkit-transition: color .15s ease-out;
+     -moz-transition: color .15s ease-out;
+          transition: color .15s ease-out;
+}
+
+.typed-cursor {
+  opacity: 1;
+  color: rgba(0,0,0,0.6);
+  -webkit-animation: blink .9s infinite;
+     -moz-animation: blink .9s infinite;
+          animation: blink .9s infinite;
+}
+
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+

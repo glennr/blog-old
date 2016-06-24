@@ -1,95 +1,66 @@
----
-layout: default
----
+<!doctype html>
+<html>
 
-<div class="teaserimage">
-    <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
-        Teaser Image
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Glenn Roberts &mdash; Full Stack Developer</title>
+    <meta name="description" content="Glenn has helped many companies bring their web app ideas to life. Founder of FormFerret.com, Siyelo Consulting, and of CoWork (a coworking space in Cape Town).">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link rel="stylesheet" href="css/landing.css">
+</head>
+
+<body class="hidden">
+    <div class="wrapper">
+        <header class="header">
+            <span>Glenn Roberts</span>
+            <br>
+            <span class="title">Full-stack Developer</span>
+        </header>
+        <section class="about">
+            <h2>Lets build something</h2>
+            <p>I've helped build many new companies, and existing ones become more efficient. I like solving problems, and in many cases that involves writing software, mostly web apps. I occasionally <a href="blog">blog about tech here</a>. If you're working on something interesting, let's talk.</p>
+
+            <ul>
+              <li><a href="mailto:hello@glenn-roberts.com">hello@glenn-roberts.com</a></li>
+              <li><a href="https://twitter.com/glennrob">@glennrob</a></li>
+              <li><a href="https://za.linkedin.com/in/glennrob">LinkedIn</a></li>
+              <li></li>
+            </ul>
+        </section>
+         <section class="work">
+            Founder of
+            <ul id="clientlist">
+                <li><a href="http://formferret.com/">FormFerret.com</a></li>
+                <li><a href="http://cowork.siyelo.com/">CoWork (Cape Town)</a></li>
+                <li><a href="http://siyelo.com/">Siyelo Consulting</a></li>
+            </ul>
+        </section>
+        <section class="work">
+            Worked with
+            <ul id="clientlist">
+                <li><a href="https://www.openfn.org/">OpenFN.org</a></li>
+                <li><a href="https://www.lobsterink.com/">LobsterInk.com</a></li>
+                <li><a href="http://madmimi.com/">MadMimi.com</a></li>
+                <li><a href="http://www.clintonhealthaccess.org/">Clinton Health Access Initiative</a></li>
+                <li><a href="https://www.hetzner.de/ot/">Hetzner</a></li>
+            </ul>
+        </section>
+        <section class="tech">
+            Using tech
+            <ul id="clientlist">
+                <li><a href="http://reactjs.org/">React</a></li>
+                <li><a href="http://redux.js.org/">ReduxJS</a></li>
+                <li><a href="http://rubyonrails.org/">Ruby on Rails</a></li>
+                <li><a href="https://www.angularjs.org/">AngularJS</a></li>
+                <li><a href="https://golang.org/">Golang</a></li>
+            </ul>
+        </section>
     </div>
-</div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
 
-<header class="blog-header">
-    {% if site.logo %}
-      <a class="blog-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
-    {% endif %}
-    <h1 class="blog-title">{{ site.title }}</h1>
-    <h2 class="blog-description">{{ site.description }}</h2>
-    <div class="custom-links">
-      {% for social in site.social %}
-        {% if social.url %}
-            <a class="icon-{{ social.icon }}" href="{{ social.url }}">
-              <i class="fa fa-{{ social.icon }}"></i>
-            </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
-        {% endif %}
-      {% endfor %}
-      <a href="/about/">About</a>
-    </div>
-</header>
-
-
-<main class="content" role="main">
-
-    {% if site.tags.featured %}
-    <h5 class="index-headline featured"><span>Featured</span></h5>
-
-    <div class="container featured">
-      {% for post in site.tags.featured %}
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-            </header>
-            <section class="post-excerpt" itemprop="description">
-              <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-            </section>
-            <div class="post-meta">
-              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-  <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
-            </div>
-          </div>
-        </article>
-      {% endfor %}
-    </div>
-
-    <h5 class="index-headline normal"><span>Regular</span></h5>
-    {% endif %}
-
-    <div class="cf frame">
-      {% for post in paginator.posts %}
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-            </header>
-            <section class="post-excerpt" itemprop="description">
-              <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-            </section>
-            <div class="post-meta">
-              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-<!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
-            </div>
-          </div>
-        </article>
-      {% endfor %}
-    </div>
-
-    <nav class="pagination" role="navigation">
-      {% if paginator.next_page %}
-        <a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Older posts</a>
-      {% endif %}
-      <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      {% if paginator.previous_page %}
-        {% if paginator.page == 2 %}
-          <a class="older-posts" href="/">Newer posts &rarr;</a>
-        {% else %}
-          <a class="older-posts" href="/page{{paginator.previous_page}}">Newer posts &rarr;</a>
-        {% endif %}
-      {% endif %}
-    </nav>
-
-
-    <!-- {{!! After all the posts, we have the previous/next pagination links }}
-    {{pagination}} -->
-
-</main>
+</html>

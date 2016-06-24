@@ -9,7 +9,7 @@ title: "Glenn Roberts"
 description: > # this means to ignore newlines until "email:"
    Tech, Startups, Digital Nomad Life
 
-email: glenn@siyelo.com
+email: hello@glenn-roberts.com
 #blog logo
 logo: "/assets/images/gr_logo.png"
 # blog cover
@@ -21,6 +21,7 @@ author_bio: 'Technologist, Entrepreneur, Partner at Siyelo'
 author_image: "/assets/images/author.png"
 
 paginate:	5
+paginate_path: "/blog/page:num/"
 
 url: "http://glenn-roberts.com" # the base hostname & protocol for your site
 baseurl: ""
