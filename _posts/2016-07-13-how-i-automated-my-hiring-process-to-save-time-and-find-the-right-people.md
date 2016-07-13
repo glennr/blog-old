@@ -24,7 +24,7 @@ Also, our Community Manager role requires someone with lots of personality who i
 
 ## Why Automating Your Hiring Process Is So Valuable
 
-There a lot of reasons to automate your hiring process, but what makes it worthwhile to me are these 3 huge benefits;
+There are a lot of reasons to automate your hiring process, but what makes it worthwhile to me are these 3 huge benefits;
 
 ### Finds the right people
 
