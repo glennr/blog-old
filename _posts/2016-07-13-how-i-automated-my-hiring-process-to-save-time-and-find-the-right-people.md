@@ -3,8 +3,8 @@ layout: post
 title: "How I automated my hiring process to save time and find the right people"
 description: ""
 date: 2016-07-13 13:45:11
-categories:
-tags: []
+categories: posts tech
+tags: [hiring automation]
 image: /assets/article_images/2016-07-13-how-i-automated-my-hiring-process-to-save-time-and-find-the-right-people/banner.jpg
 ---
 

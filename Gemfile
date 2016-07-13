@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'bourbon'
-gem 'jekyll'
+# 'github-pages' includes 'jekyll' gem
 gem 'github-pages'
-gem 'rake'
-gem 'rouge'
+gem 'bourbon'
+gem 'jemoji'

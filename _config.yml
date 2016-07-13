@@ -3,6 +3,7 @@ markdown: kramdown
 highlighter: rouge
 gems:
   - jemoji
+  - jekyll-paginate
 
 # Site settings
 title: "Glenn Roberts"
@@ -20,7 +21,7 @@ author: 'Glenn Roberts'
 author_bio: 'Technologist, Entrepreneur, Partner at Siyelo'
 author_image: "/assets/images/author.png"
 
-paginate:	5
+paginate: 8
 paginate_path: "/blog/page:num/"
 
 url: "http://glenn-roberts.com" # the base hostname & protocol for your site
