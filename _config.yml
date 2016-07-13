@@ -27,6 +27,8 @@ paginate_path: "/blog/page:num/"
 url: "http://glenn-roberts.com" # the base hostname & protocol for your site
 baseurl: ""
 
+future: true
+
 # social icons and sharing options
 social:
   - icon:	twitter
