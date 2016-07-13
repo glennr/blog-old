@@ -13,7 +13,7 @@ image: /assets/article_images/2016-07-13-how-i-automated-my-hiring-process-to-sa
 
 A few weeks ago I needed to find a new Community Manager for [Siyelo CoWork](http://cowork.siyelo.com/), a shared office space that we run in beautiful Cape Town.
 
-I prefer to source candidates online myself, using essentially the same tools and job board recruiters ask a hefty fee for. In South Africa popular boards include BizCommunity, Careers24 or even Gumtree.
+I prefer to source candidates online myself, using essentially the same tools and job boards recruiters ask a hefty fee for. In South Africa popular boards include BizCommunity, Careers24 or even Gumtree.
 
 The problem is, when you put a job ad out there, you have to do the filtering and qualification yourself in order to shortlist candidates. This can be really time consuming if you get a *lot* of responses
 
