@@ -33,8 +33,13 @@ A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme
 
 You should have a server up and running locally at <http://localhost:4000>.
 
+## Stock pics
 
-##Configuration
+  - https://unsplash.com/collections
+  - http://www.gratisography.com/#objects
+  -
+
+ ##Configuration
 
 The main settings happen in side of the _config.yml file:
 
