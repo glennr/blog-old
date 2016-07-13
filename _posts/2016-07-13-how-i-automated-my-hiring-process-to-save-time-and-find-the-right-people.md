@@ -92,11 +92,12 @@ While email sucks, it is ubiquitous. If you're using Google Apps/Gmail you can g
 ## Here's How I've Done It
 
 For the Community Manager role, I needed to come up with a hiring process that;
-  1. filtered out unqualified / disinterested people
-  1. enabled people to communicate and express themselves.
-  1. automated the above steps in a way that engages the right people
 
-In my case, my process looked like this;
+  - filtered out unqualified / disinterested people
+  - enabled people to communicate and express themselves.
+  - automated the above steps in a way that engages the right people
+
+In my case, the process featured;
 
 ### A Short Application Form
 
@@ -108,7 +109,7 @@ This form is intentionally short and easy enough to fill out. Note I ask for a l
 
 Our application form is backed by [FormFerret](http://www.formferret.com/) which processes the form submissions for us. While FormFerret saves these submissions, I don't monitor the FormFerret inbox at all however.
 
-FormFerret allows us to set up an auto-responder that will reply to the email address that the candidate gives. I found this [awesome template from Trello](https://www.themuse.com/advice/a-job-application-autoresponse-that-will-actually-make-you-happy).
+FormFerret allows us to set up an auto-responder that will reply to the email address that the candidate gives. I found this [awesome autoresponder template from Trello](https://www.themuse.com/advice/a-job-application-autoresponse-that-will-actually-make-you-happy).
 
 So when a candidate submits an application, FormFerret will send them my email auto-response, with instructions of the next step. In our case, we modified the Trello autoresponder slightly, and ask them to record a quick SnapChat video about why they'd be a great Community Manager, and ask them to email it to our jobs inbox.
 
@@ -116,7 +117,7 @@ So when a candidate submits an application, FormFerret will send them my email a
 
 ### A Better Inbox
 
-I monitor our jobs inbox for these (qualified) applications. Its a lot easier and less time-consuming to process, since it contains fewer but very high-quality job applications, which I can do when it suits me.
+I monitor our jobs inbox for these (qualified) applications. It's a lot easier and less time-consuming to process, since it contains fewer but very high-quality job applications, which I can do when it suits me.
 
 These short videos allow me to get a sense of what somebody is like, how they come across, and ultimately enables me to make a better hiring decision for the Community Manager.
 
