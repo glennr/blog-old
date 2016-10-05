@@ -6,19 +6,18 @@ I hereby claim:
 
   * I am an admin of http://glenn-roberts.com
   * I am glennrob (https://keybase.io/glennrob) on keybase.
-  * I have a public key with fingerprint A116 1BB1 8A55 FED3 0991  44D9 97CD
-  * 22CC C005 CD65
+  * I have a public key ASBosoApL-Zqr2EL0ps7gQyWus4ZUx7uF8Fj1px3UeZClQo
 
 To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "fingerprint": "a1161bb18a55fed3099144d997cd22ccc005cd65",
+            "eldest_kid":
+"012068b280292fe66aaf610bd29b3b810c96bace19531eee17c163d69c7751e642950a",
             "host": "keybase.io",
-            "key_id": "97cd22ccc005cd65",
             "kid":
-"0101aaf8b21dabd2603156547858b01e64eef88c2dfbd4b3ec827eac1bb8f40bdf200a",
+"012068b280292fe66aaf610bd29b3b810c96bace19531eee17c163d69c7751e642950a",
             "uid": "b372102d11f43cccd96562eb8e4b7b19",
             "username": "glennrob"
         },
@@ -29,42 +28,26 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1441085070,
-    "expire_in": 157680000,
-    "prev": "37eabe6494ce804936040f41f24de8a4bac99592af3488f5c369530b49562ac8",
-    "seqno": 8,
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1475674860,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1475674720,
+        "hash":
+"fe56dc920e80729d2fef2da480743dcd84b964ddae42b6e1351622ca194f2f6bb70e346fbd4e32bb3b37cc351788347a91c8a921a0a2f67eb25e9d2572c11a54",
+        "seqno": 665073
+    },
+    "prev": "968486a0dd36fd9d211161847b863f3da4485ce6cb6b9d32ed6ea30a649f6505",
+    "seqno": 23,
     "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: GnuPG v1
-
-owFtkmtMFFcUx5etoouggFKDkOpOSSPNQua9M9uiErCAxFJbSIu2snNn7sBE2NnO
-riALhGCDBkSsGINFEqQpLYp9KBKIDWoXiaVgsPJqMLGFSABJ5BHLowHtHdIm/dD7
-5eae8zv/c/4n9/OAVwxGn+r7WM+dtfehT/ckMKSNsb8UYECV8jFbAXYErl6y4siE
-mlNTHG7MhgkEwRIAEJzAMDKUKJznCZqWeN4qSiQpiiKOM6LEMpgFy1JdegWSAYIL
-RisqiqFHhiKh6P/wR1YTOIETgiBzgCQkAUgki1MEwzK0lWM4gBOQpSGUOU4kJRlI
-NKCgyJFWKIhoKE6mcSDJJI4LSO7oqhygrCSBkxJByDSF2kk8y7AkBBykgRUQvA66
-oOYQciCiM7Ohw6GpACuyYCiaq4hQX4Hu5L9EFEKg5nZFi2oOEnBqqlsV1WyUznK7
-nTa92p3v1PE8CDL+EcoAikNCu0QFuVBzKaoDsxGIFN2Kroy2SOAcg1txCwaPORUN
-Zig6wVhZDkdHbwNzkSSF3AK0Bp4WIYfTPMXiNC7ThEzSEuQEGggizzM8KcgUzXEy
-I1Isz1A4oHlkXBA5TLf2qUPFbBwaU8hEki4l0yG4fY9qECvyKzOGrzH4GA2+a436
-fzD4mQL//SRzVZtWtsN90bPBUaXXWm+cN6bMBS0PVQRuHKiprw0JM338MmcgsChh
-+mHixmT/qxcKk6StT3qvVN6Omc59NbU8t/PQ8Mp4csp8aq1Nfbxc3r3ww3O1J/LS
-6Cx7t1I7tzPuafXpZuOjz/w3Pag350+dqt7xeklxrb3K9m1+1vOlywfNWabTP/bT
-kdsmk5uk+LyKjpp9PQ+zs7WTHct/fTQ+sv+FPeNOlXdnc/xw0Ccjo+Gzx8Peu+34
-+Q1PQZQnxrfbJza09ENX1uZv+hr9yh7FacPgtdFtAf7bG/eWHqj7Wr0+sYRNV1kY
-Tzo+JRNJj+WtN6/m7O6tNzasuWWeeRB7vuectuOdg2dDn73bPm8JtC30T/1UHr55
-Pbc7JaklL6UzrO/YSe+6l85YMn0wMvOPCddw0veBoV6wEkwEmE+tmzh7ZuxQ0HXn
-mRL6wvGuuDYmcXnEtGvs8tABfNDlFBKaet3FStHdha75PfUlzUWtxhOHu75MTzS3
-fVHXdqWh0VSIjYe0flcSm3Yp/vfFxnatoemte5SXuug1WfYYxpPHeiKX3+57WjG4
-aN/Q35fu+aA4omOxN0aMuJm0pYAWG9ffq7O3zHiifJOngjcULv725ouwXQlz1+wn
-lJawxF8PM0MD+V/dumH3AG9I2ZL/TKwppCadqAyImLSnCs86tzxp7/8zLY3a+/7U
-wOTf
-=XkMt
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgaLKAKS/maq9hC9KbO4EMlrrOGVMe7hfBY9acd1HmQpUKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjhiMjgwMjkyZmU2NmFhZjYxMGJkMjliM2I4MTBjOTZiYWNlMTk1MzFlZWUxN2MxNjNkNjljNzc1MWU2NDI5NTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjhiMjgwMjkyZmU2NmFhZjYxMGJkMjliM2I4MTBjOTZiYWNlMTk1MzFlZWUxN2MxNjNkNjljNzc1MWU2NDI5NTBhIiwidWlkIjoiYjM3MjEwMmQxMWY0M2NjY2Q5NjU2MmViOGU0YjdiMTkiLCJ1c2VybmFtZSI6ImdsZW5ucm9iIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJnbGVubi1yb2JlcnRzLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTcifSwiY3RpbWUiOjE0NzU2NzQ4NjAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3NTY3NDcyMCwiaGFzaCI6ImZlNTZkYzkyMGU4MDcyOWQyZmVmMmRhNDgwNzQzZGNkODRiOTY0ZGRhZTQyYjZlMTM1MTYyMmNhMTk0ZjJmNmJiNzBlMzQ2ZmJkNGUzMmJiM2IzN2NjMzUxNzg4MzQ3YTkxYzhhOTIxYTBhMmY2N2ViMjVlOWQyNTcyYzExYTU0Iiwic2Vxbm8iOjY2NTA3M30sInByZXYiOiI5Njg0ODZhMGRkMzZmZDlkMjExMTYxODQ3Yjg2M2YzZGE0NDg1Y2U2Y2I2YjlkMzJlZDZlYTMwYTY0OWY2NTA1Iiwic2Vxbm8iOjIzLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQO2N3HxJTOXNitJZhB1Pa5aYhb6qamA6GWeLBxW1PIT9HkgCbKISqSwnC+xZEcgGs23JJ9WQrxZfuPVOHHocTAOoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCC5ns7CLAfR8709giHO5HDft5RpPfv74ckecMBZQ3iZZ6N0YWfNAgKndmVyc2lvbgE=
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -72,6 +55,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/glennrob
 
 ==================================================================
-
-
-
